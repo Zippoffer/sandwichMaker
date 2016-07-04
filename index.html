@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sandwichamicator</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="full">
+<div>
+
+	
+
+	
+
+		<div class="condiments">
+			<label class="dropDownsAndSlide">Condiments</label>
+			<select id="condimentChooser" class = "selectbar">
+				<option>pick a condiment</option>
+				<option value="ketchup">ketchup</option>
+				<option value="mustard">mustard</option>
+				<option value="mayo">mayo</option>
+				<option value="lemon juice">lemon juice</option>
+			</select>
+			<button id="condimentButton">AddCondiments</button>
+		</div>
+	
+
+		<div class="veggies">
+			<label class="dropDownsAndSlide">Veggies</label>
+			<select id="veggieChooser" class = "selectbar">
+				<option>pick a veggie</option>
+				<option value="kale">kale</option>
+				<option value="brussel sprouts">brussel sprouts</option>
+				<option value="almonds">almonds</option>
+				<option value="spinach">spinach</option>
+			</select>
+			<button id="veggieButton">AddVeggie</button>
+		</div>
+	
+		<div class="meat">
+			<label class="dropDownsAndSlide">Meat</label>
+			<select  id="meatChooser" class = "selectbar">
+				<option> pick a meat</option>
+				<option value="bologna">bologna</option>
+				<option value="hamburger">hamburger</option>
+				<option value="chicken">chicken</option>
+				<option value="mystery">mystery</option>
+			</select>
+			<button id="meatButton" type="">AddMeat</button>
+		</div>
+		<div class="cheese">
+			<label class="dropDownsAndSlide">Cheese</label>
+			<select id="cheeseChooser" class = "selectbar">
+				<option>pick a cheese</option>
+				<option value="provolone">provolone</option>
+				<option value="cheddar">cheddar</option>
+				<option value="manchego">manchego</option>
+				<option value="limberger">limberger</option>
+			</select>
+			<button id="cheeseButton">AddCheese</button>
+		</div>
+
+		<div class="bread">
+			<label class="dropDownsAndSlide">Bread</label>
+			<select id="breadChooser" class = "selectbar">
+				<option>pick a bread</option>
+				<option value="whole wheat">whole wheat</option>
+				<option value="white">white</option>
+				<option value="potato">potato</option>
+				<option value="sweet">sweet</option>
+			</select>
+			<button id="breadButton">AddBread</button>
+		</div>
+
+
+	<button id="finalFood">finalFood</button>
+	<button id="reset" formtarget="parent" type="reset">reset</button>
+</div>
+
+<article>
+	<section id="tally">
+	<div>
+		
+	</div>
+	</section>
+	<section id="totalPrice">	
+	<div>
+		
+	</div>
+	</section>
+</article>
+
+
+</div>
+	<!-- <script src="SandwichMaker.js"</script> -->
+	<script src="meat.js"></script>
+	<script src="cheese.js"></script>
+	<script src="bread.js"></script>
+	<script src="condiments.js"></script>
+	<script src="veggie.js"></script>
+	<script src="DOMHandler.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+body {
+	background-color: black;
+}
+.full {
+	background-image: url(https://www.ingramsendr.com/s/feel_resources/handwritten/backgrounds/images/cuttingboard.jpg?_v=1);
+	min-height: 600px;
+	overflow: hidden;
+	border-radius: 13%;
+	padding-top: 6%;
+}
+#reset {
+	margin: 2% 20% 2% 20%;
+	border-radius: 200px;
+	background-color: crimson;
+	width: 60px;
+	height: 60px;
+	box-shadow: 0 12px 23px 0;
+	transform: rotate(26deg);
+	opacity: .7;
+	background-image: url();
+}
+#tally {
+	color: white;
+	margin: 2% 20% 2% 20%;
+	font-size: 2.5vw;
+	text-shadow: 45px 23px 12px black;
+}
+#totalPrice {
+	color: white;
+	margin: 2% 20% 2% 20%;
+}
+#finalFood {
+	font-size: auto;
+	margin-top: 2vw;
+	margin-left: 2vw;
+	border-radius: 200px;
+	background-color: green;
+	margin: 2% 20% 2% 20%;
+	height: 80px;
+	width: 80px;
+	box-shadow: 0 12px 23px 0;
+	transform: rotate(-30deg);
+}
+
+.meat {
+	margin: 2% 20% 2% 20%;
+	border: 1px solid black;
+	background-color: wheat;
+	border-radius: 33px;
+	font-size: 2em;
+	padding-left: 2%;
+	transform: rotate(-1deg);
+	box-shadow: inset 0 2px 2px 0;
+	box-shadow: 12px 10px 12px 0;
+	background-image: url(https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX6580254.jpg);
+}
+.veggies {
+	margin: 2% 20% 2% 20%;
+	border: 1px solid black;
+	background-color: wheat;
+	border-radius: 33px;
+	font-size: 2em;
+	padding-left: 2%;
+	box-shadow: inset 0 2px 2px 0;
+	box-shadow: 2px 10px 12px 0;
+	background-image: url(http://www.foodchannel.com/media/uploads/galleries/tomatoes_galore.jpg);
+	/*background-image: url(http://university.elitehealth.com/content/images/2015/06/Comp_72620313-2.jpg);*/
+
+}
+.cheese {
+	margin: 2% 20% 2% 20%;
+	border: 1px solid black;
+	background-color: wheat;
+	border-radius: 33px;
+	font-size: 2em;
+	padding-left: 2%;
+	transform: rotate(2deg);
+	box-shadow: inset 0 2px 2px 0;
+	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTISwEyjVLafxeMGeAec6fb-z3WaEW6b-yj-63tkusK1Zg7eRZ-);
+}
+.condiments {
+	margin: 2% 20% 2% 20%;
+	border: 1px solid black;
+	background-color: wheat;
+	/*border-radius: 33px;*/
+	border-top-left-radius: 33px;
+	border-top-right-radius: 33px;
+	/*transform: rotate(180deg);*/
+	font-size: 2em;
+	padding-left: 2%;
+	/*box-shadow: inset 0 2px 2px 0;*/
+	box-shadow: 2px 10px 12px 0;
+	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRS6FiPwNEtGxePF3D6ZjbGysa-Ew7IhovY6CqbrNEwaVeqKa6T5w);
+	/*background-image: url(https://picklelicious.com/store/wp-content/uploads/2014/07/Sweet_Relish.jpg);*/
+}
+.bread {
+	margin: 2% 20% 2% 20%;
+	border: 1px solid black;
+	background-color: wheat;
+	/*border-radius: 33px;*/
+	border-bottom-left-radius: 33px;
+	border-bottom-right-radius: 33px;
+	font-size: 2em;
+	padding-left: 2%;
+	box-shadow: inset 0 2px 2px 0;
+	box-shadow:  2px 10px 12px 0;
+	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRS6FiPwNEtGxePF3D6ZjbGysa-Ew7IhovY6CqbrNEwaVeqKa6T5w);
+}
+#meatChooser {
+	font-size: 1.5vw;
+	background-color: lightgreen;
+	margin-bottom: 2%;
+}#cheeseChooser {
+	font-size: 1.5vw;
+	background-color: lightgreen;
+	margin-bottom: 2%;
+}#breadChooser {
+	font-size: 1.5vw;
+	background-color: lightgreen;
+	margin-bottom: 2%;
+}#condimentChooser {
+	font-size: 1.5vw;
+	background-color: lightgreen;
+	margin-bottom: 2%;
+}#veggieChooser {
+	font-size: 1.5vw;
+	background-color: lightgreen;
+	margin-bottom: 2%;
+}
+#meatButton {
+	font-family: ;
+	font-size: auto;
+	background-color: yellow;
+	margin-bottom: 2%;
+	border-radius: 200px;
+	height: auto;
+	width: auto;
+}#cheeseButton {
+	font-size: auto;
+	background-color: yellow;
+	margin-bottom: 2%;
+	border-radius: 200px;
+	height: auto;
+	width: auto;
+}#breadButton {
+	font-size: auto;
+	background-color: yellow;
+	margin-bottom: 2%;
+	border-radius: 200px;
+	height: auto;
+	width: auto;
+}#condimentButton {
+	font-size: auto;
+	background-color: yellow;
+	margin-bottom: 2%;
+	border-radius: 200px;
+	height: auto;
+	width: auto;
+}#veggieButton {
+	font-size: auto;
+	background-color: yellow;
+	margin-bottom: 2%;
+	border-radius: 200px;
+	height: auto;
+	width: auto;
+}
+label {
+	-webkit-text-stroke: 1px black;
+	color: aqua;
+ 	font-weight: 900;
+}
